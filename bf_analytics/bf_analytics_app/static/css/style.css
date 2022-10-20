@@ -1,0 +1,85 @@
+body {
+    background-color:#000000;
+    color:#FFFFFF;
+    font-family: 'IBM Plex Mono', 'Helvetica', 'Roboto', sans-serif;
+}
+
+.dashboard__block {
+    background: #3e3e3e;
+    border-radius: 5px;
+    padding: 20px;
+    min-height: 100%;
+}
+
+.sc-composition {
+    width:400px;
+}
+
+.sc-composition-dynamics {
+    width: 100%;
+}
+
+.sc-unique-wallets, .sc-daw {
+    min-width: 400px;
+}
+
+.dashboard__btn {
+    font-size: 12px;
+}
+
+#sc-composition__legend-container ul{
+    padding-left: 15px;
+}
+
+.dashboard__block_total-value {
+    font-size:16px;
+}
+
+.dashboard__block_total-value {
+    font-size:16px;
+}
+
+.dashboard__block_switchable-block-title {
+    font-size:14px;
+}
+
+.switch-btn {
+    font-size: 13px;
+}
+
+
+.switch-btn:focus { 
+  outline: 0 !important;
+  box-shadow:
+    0 0 0 .2rem #fff, /* use site bg color to create whitespace for faux focus ring */
+    0 0 0 .35rem #069 !important; /* faux focus ring color */
+}
+
+
+.switch-btn:focus:not(:focus-visible) {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.timeframe__btn {
+    font-size: 14px;
+}
+
+
+
+
+.price {
+    width:100%;
+}
+
+
+.locked-funds {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.switch-dashboard__btn {
+    font-size: 10px;
+}
